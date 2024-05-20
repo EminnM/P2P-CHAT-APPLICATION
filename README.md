@@ -17,7 +17,7 @@ To run the P2P Chat Application:
 
 1. **Clone the repository:** 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/EminnM/p2p-chat-application/.git
    ```
 
 2. **Install dependencies:**
@@ -27,18 +27,18 @@ To run the P2P Chat Application:
 
 3. **Run the application:**
    ```bash
-   python main.py
+   EBA.py
    ```
 
 ## Usage
-
+At first it is critical to click to the Enter Username button. If else is clicked the application may malfunction.
 1. **Username Entry:** When prompted, enter your username to log in to the chat application.
    
-2. **Display Users:** Click on the "Display Users" button to view a list of online users.
+2. **Display Users:** Click on the "Display Users" button to view a list of online users and those who have been online recently.
    
 3. **Chat:** To start a chat session with another user, click on the "Chat" button and select whether you want a secure or unsecured chat. Enter the target username and your message, then click "Send".
    
-4. **History:** Click on the "History" button to view the chat history.
+4. **History:** Click on the "History" button to view the history of events related to chatting.
 
 5. **Exit:** To close the application, click on the "Exit" button.
 
@@ -48,25 +48,14 @@ To run the P2P Chat Application:
 
 This class represents the P2P chat client. It includes methods for service announcement, peer discovery, chat initiation, encryption/decryption, and message logging.
 
-```python
-# Insert code for P2PChatApplicationClient class here
-```
 
 ### `GUI_P2PChatApplicationClient` Class
 
 This class represents the GUI for the P2P chat application. It includes methods for displaying events, users, chat, and history.
 
-```python
-# Insert code for GUI_P2PChatApplicationClient class here
-```
-
 ### Running the Application
 
 The application is launched by executing the `run_gui()` and `run_p2p_chat()` functions in separate threads.
-
-```python
-# Insert code for running the application here
-```
 
 ## Contribution Guidelines
 
