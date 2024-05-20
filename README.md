@@ -17,7 +17,7 @@ To run the P2P Chat Application:
 
 1. **Clone the repository:** 
    ```bash
-   git clone https://github.com/EminnM/p2p-chat-application/.git
+   git clone https://github.com/EminnM/p2p-chat-application.git
    ```
 
 2. **Install dependencies:**
